@@ -16,7 +16,16 @@ import {
 import { Logo } from "./Logo.stories";
 import { NavButton } from "./NavButton.stories";
 import { UserProfile } from "./UserProfile.stories";
-import { HouseSimple, FileSearch, ChartBar, CheckSquare } from "phosphor-react";
+import {
+  HouseSimple,
+  MagnifyingGlass,
+  ChartBar,
+  CheckSquare,
+  BookBookmark,
+  Gear,
+  Users,
+  Question,
+} from "phosphor-react";
 
 export const Sidebar = () => (
   <Flex as="section" minH="100vh" bg="bg-canvas">
@@ -41,7 +50,7 @@ export const Sidebar = () => (
             <InputLeftElement pointerEvents="none">
               <Icon
                 as={() => {
-                  return <FileSearch size={20} />;
+                  return <MagnifyingGlass size={20} />;
                 }}
                 color="muted"
                 boxSize="5"
@@ -72,13 +81,13 @@ export const Sidebar = () => (
             <NavButton
               label="Bookmarks"
               icon={() => {
-                return <ChartBar size={20} />;
+                return <BookBookmark size={20} />;
               }}
             />
             <NavButton
               label="Users"
               icon={() => {
-                return <ChartBar size={20} />;
+                return <Users size={20} />;
               }}
             />
           </Stack>
@@ -88,13 +97,13 @@ export const Sidebar = () => (
             <NavButton
               label="Help"
               icon={() => {
-                return <ChartBar size={20} />;
+                return <Question size={20} />;
               }}
             />
             <NavButton
               label="Settings"
               icon={() => {
-                return <ChartBar size={20} />;
+                return <Gear size={20} />;
               }}
             />
           </Stack>

@@ -45,7 +45,10 @@ export const App = () => {
                   >
                     Dashboard
                   </Heading>
-                  <Text color="muted">All important metrics at a glance</Text>
+                  <Text color="muted">
+                    All important metrics at a glance, if you do not believe it
+                    try it.
+                  </Text>
                 </Stack>
                 <HStack spacing="3">
                   <Button variant="secondary" leftIcon={<Download size={20} />}>
