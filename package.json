@@ -4,6 +4,8 @@
     "@chakra-ui/react": "^2.5.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@fontsource/lexend": "^4.5.15",
+    "@fontsource/space-grotesk": "^4.5.13",
     "@ladle/react": "^2.7.4",
     "boring-avatars": "^1.7.0",
     "framer-motion": "^9.0.4",

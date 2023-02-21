@@ -4,6 +4,10 @@ import { extendTheme, theme as baseTheme } from "@chakra-ui/react";
 export const theme = extendTheme(
   {
     colors: { ...baseTheme.colors, brand: baseTheme.colors.blue },
+    fonts: {
+      heading: `Lexend', sans-serif`,
+      body: `Space Grotesk', sans-serif`,
+    },
   },
   proTheme
 );
