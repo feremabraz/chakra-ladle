@@ -46,8 +46,7 @@ export const App = () => {
                     Dashboard
                   </Heading>
                   <Text color="muted">
-                    All important metrics at a glance, if you do not believe it
-                    try it.
+                    Sphinx of black quartz, judge my vow.
                   </Text>
                 </Stack>
                 <HStack spacing="3">
