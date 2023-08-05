@@ -1,6 +1,6 @@
 # Chakra development with Ladle
 
-Quick description.
+Your quick description.
 
 ![Screenshot](./README.png)
 
