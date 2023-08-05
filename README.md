@@ -1,19 +1,18 @@
 # Chakra development with Ladle
 
-Description.
+Quick description.
+
+![Screenshot](./README.png)
 
 ## How to develop?
 
 ```bash
+# using pnpm is adviced
+pnpm install
+
 # start ladle in development mode
-$ npm run dev
+pnpm dev
 
-# build ladle as a static site
-$ npm run build
-```
-
-## How to link?
-
-```bash
-# TODO
+# build it as a static site
+pnpm build
 ```

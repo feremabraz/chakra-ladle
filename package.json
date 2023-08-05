@@ -1,32 +1,27 @@
 {
   "dependencies": {
-    "@chakra-ui/pro-theme": "^0.0.63",
-    "@chakra-ui/react": "^2.5.1",
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-    "@fontsource/lexend": "^4.5.15",
-    "@fontsource/space-grotesk": "^4.5.13",
-    "@ladle/react": "^2.7.4",
-    "boring-avatars": "^1.7.0",
-    "framer-motion": "^9.0.4",
+    "@chakra-ui/pro-theme": "^0.10.0",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/lexend": "^5.0.7",
+    "@fontsource/space-grotesk": "^5.0.7",
+    "@ladle/react": "^2.16.1",
+    "boring-avatars": "^1.10.1",
+    "framer-motion": "^10.15.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-powerglitch": "^1.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "npm-check-updates": "^16.7.4",
-    "typescript": "^4.9.5"
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "npm-check-updates": "^16.10.17",
+    "typescript": "^5.1.6"
   },
-  "license": "UNLICENSED",
-  "name": "chakra-ladle",
-  "private": true,
   "scripts": {
     "dev": "ladle serve",
-    "build": "ladle build",
-    "update": "npx ncu -u"
-  },
-  "version": "0.1.0"
+    "build": "ladle build"
+  }
 }
